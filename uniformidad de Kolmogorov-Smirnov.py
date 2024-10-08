@@ -26,7 +26,6 @@ estadistico = prueba_uniformidad(numeros_aleatorios, num_intervalos)
 
 valor_critico = 16.92  # Aproximado para 9 grados de libertad
 
-# Mostrar los resultados de la prueba
 print("\nResultado de la prueba de uniformidad:")
 print(f"Estadístico calculado: {estadistico:.4f}")
 print(f"Valor crítico (con 0.05 de significancia): {valor_critico}")
